@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background:darkblue;
+  color: white;
+}
+
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  
+}
+
+.title{
+  font-size:x-large;
+  font:italic ;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.center{
+  height: 840px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image{
+  height: 100px;
+  margin-left: 0%;
+}
+
+.image2{
+  height: 500px;
+  margin-left: 0%;
+}
+
+.registerSize{
+  width: 100%;
+  height: 870px;
+  background-color: rgb(238, 180, 133);
+}
+
+.loginSize{
+  width: 100%;
+  height: 870px;
+  background-color: lightblue;
+}
+
+.button{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-size: small;
+}
