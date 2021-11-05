@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import './logo.svg';
+import '../style/App.css';
 import register from "./register";
 import Login from "./Login";
 import Nav from './Nav';
