@@ -4,59 +4,11 @@
     background-size: 100% 100%;
 }
 
-.Login_Form{
-    left: 65%;
-    top: 20%;
-    color: #000;
-    border-radius: 25px;
-    border: 2px solid white;
-    height: 60%;
-    width: 25%;
-    background-color: bisque;
-    align-items: center;
-    text-align: center;
-    padding: 50px;
-    position: relative;
-    
-}
-
-.login_title{
-    color: #000;
-    font-weight: bold;
-    font-size: x-large;
-    text-align: center;
-    margin-bottom: 20px;
-}   
-
-.login_label{
-    color: #000;
-    text-align: left;
-}
-
-.buttons{
-    top:50%; 
-    left:50%;
-}
-
-.login_button{
-    background-color: rgb(24, 158, 136); 
-    width: 150px;
+.button {
+    background-color: darkred;
     border-radius: 12px;
     color: white;
-    padding: 25px;
-    text-align: center;
-    display: inline-block;
-    font-size: 20px;
-    position: relative;
-    margin: 30px;
-}
-
-.register_button{
-    background-color: rgb(24, 158, 136); 
-    border-radius: 12px;
-    width: 150px;
-    color: white;
-    padding: 25px;
+    padding: 3px;
     text-align: center;
     display: inline-block;
     font-size: 20px;

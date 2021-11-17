@@ -12,7 +12,7 @@ function Register() {
   const [Password, setPassword] = useState('')
 
   const registerAccount = () => {
-    Axios.post('http://localhost:3001/api/insert', {FirstName: Firstname, LastName: Lastname, UserName:Username, Email:Email, Password:Password}).then(()=> {
+    Axios.post('http://localhost:3001/api/register', {FirstName: Firstname, LastName: Lastname, UserName:Username, Email:Email, Password:Password}).then(()=> {
       alert('Your account was successdully created')
     });
     

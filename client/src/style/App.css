@@ -40,12 +40,6 @@ nav{
   margin-left: 0%;
 }
 
-.registerSize{
-  width: 100%;
-  height: 870px;
-  background-color: rgb(238, 180, 133);
-}
-
 
 .button{
   display: flex;
