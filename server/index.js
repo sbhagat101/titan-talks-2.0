@@ -50,6 +50,18 @@ app.post('/login', (req, res) => {
 
 })
 
+// Register API endpoints
+const postRoutes = require('./routes/posts.routes');
+postRoutes(app);
+
+// Create Database Tables
+const postsModel = require('./models/posts.model');
+const filesModel = require('./models/files.model');
+postsModel.createTable();
+filesModel.createTable();
+
+// Serving static files
+app.use('/uploads', express.static('uploads'))
 
 app.listen(3001,() => {
     console.log("running on port 3001");
