@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function CreateEditPost() {
+export default function CreateEditPost() {
 	const [caption, setCaption] = useState('');
 	const [selectedFile, setSelectedFile] = useState();
 	const [previewImage, setPreviewImage] = useState('https://img.freepik.com/free-vector/image-upload-concept-landing-page_52683-27130.jpg?size=338&ext=jpg');
@@ -82,5 +82,3 @@ function CreateEditPost() {
 		</div>
 	);
 }
-
-export default CreateEditPost;
