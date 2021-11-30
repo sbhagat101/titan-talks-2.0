@@ -14,6 +14,7 @@ function Nav() {
             <li>Home</li> 
         </Link>
      </ul>
+     <Link to="/explore">Explore</Link>
      <Link to="/post-new">Create a Post</Link>
      </nav>
   );
