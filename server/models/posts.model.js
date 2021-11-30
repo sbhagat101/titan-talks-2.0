@@ -54,11 +54,12 @@ Post.findById = (id, result) => {
 };
 
 Post.getAll = (searchText, result) => {
-	let query = "SELECT * FROM posts";
+	let query = "SELECT * FROM posts INNER JOIN files ON posts.post_id = files.post_id";
 
 	if (searchText) {
 		query += ` WHERE content LIKE '%${searchText}%'`;
 	}
+	query += " ORDER BY posts.create_time DESC";
 
 	sql.query(query, (err, res) => {
 		if (err) {
