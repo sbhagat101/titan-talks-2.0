@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Nav2  from '../component/Nav2';
 
 export default function CreateEditPost() {
 	const [caption, setCaption] = useState('');
@@ -43,6 +44,8 @@ export default function CreateEditPost() {
 	};
 
 	return (
+		<div>
+		<Nav2 />
 		<div class="relative min-h-screen flex items-center justify-center">
 			<div class="sm:max-w-lg w-full p-10 bg-white rounded-xl z-10">
 				<div class="text-center">
@@ -78,6 +81,7 @@ export default function CreateEditPost() {
 						Share
 					</button>
 				</div>
+			</div>
 			</div>
 		</div>
 	);

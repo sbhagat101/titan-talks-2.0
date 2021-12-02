@@ -48,3 +48,9 @@ nav{
   list-style: none;
   font-size: small;
 }
+
+.Main2{
+  background-image:url('../homelogo.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

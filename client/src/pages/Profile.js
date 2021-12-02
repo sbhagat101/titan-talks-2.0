@@ -1,17 +1,19 @@
 import '../style/Profile.css';
+import Nav2  from '../component/Nav2';
 
 export default function Profile() {
 	return (
+		<div >
+        <Nav2 />
 		<div className="max-w-screen-lg center">
-
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 			<div className="md:container md:mx-auto my-5 grid grid-cols-1 md:grid-cols-5">
 				<div>
 					<img src="images/titans3.png" class="rounded-circle profile-image" />
 				</div>
 				<div className="col-span-4 mx-5">
-					<h1 className="text-4xl font-medium">Name</h1>
-					<p className="text-xl font-extralight">Username @ csu.fullerton.edu</p>
+					<h1 className="text-4xl font-medium">Shiv Bhagat</h1>
+					<p className="text-xl font-extralight">sbhagat101@ csu.fullerton.edu</p>
 					<div class="container-gap-5">
 						<a><span class="badge">Skill 1</span></a>
 						<a><span class="badge">Skill 2</span></a>
@@ -65,6 +67,7 @@ export default function Profile() {
 					</p>
 					<a href="https://github.com/" className="button-link" role="button" aria-pressed="true">View Source Code</a>
 				</div>
+			</div>
 			</div>
 		</div>
 	);

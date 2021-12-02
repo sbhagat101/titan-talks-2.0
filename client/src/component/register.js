@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
+import Footer from './Footer';
 import './logo.svg';
-
+import Nav from './Nav';
 import Axios from 'axios'
 
 function Register() {
@@ -19,12 +20,10 @@ function Register() {
   };
 
   return (
-      <section className= "registerSize">
+      <section className= "Main">
+      <Nav />
       <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
       <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
-      <h1 class="title-font font-medium text-3xl text-gray-900">Register to Titan Talks</h1>
-      &nbsp;
-      <img src= "/images/titans2.gif" alt="" class= "image2" />
       </div>
       <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0" className = "register"></div>
       <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
@@ -62,6 +61,7 @@ function Register() {
         <button  onClick={registerAccount} class="text-white bg-red-800 border-0 py-2 px-8 focus:outline-none hover:bg-bg-blue-900 rounded text-lg">Register</button>
         &nbsp;
       </div>
+      <Footer />
       </div>
       </section>
   );

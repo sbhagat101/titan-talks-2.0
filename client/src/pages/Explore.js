@@ -1,9 +1,12 @@
-import { Get } from 'react-axios'
+import { Get } from 'react-axios';
 import PostListView from '../component/post/listview';
 import FriendSuggestion from '../component/suggestion/FriendSuggestion';
+import Nav2  from '../component/Nav2';
 
 export default function Explore() {
 	return (
+		<div>
+		<Nav2 />
 		<div className="max-w-screen-lg center">
 			<div className="md:container md:mx-auto my-5 grid grid-cols-1 md:grid-cols-3">
 				<div className="col-span-2">
@@ -22,6 +25,7 @@ export default function Explore() {
 					</Get>
 				</div>
 				<FriendSuggestion />
+			</div>
 			</div>
 		</div>
 	);

@@ -8,9 +8,6 @@ function Nav() {
       <img src="/images/titans.jpg" alt="" class="image" />
       <Link to="/login">Login</Link>
       <Link to="/">Home</Link>
-      <Link to="/explore">Explore</Link>
-      <Link to="/profile">My Profile</Link>
-      <Link to="/post-new">Create a Post</Link>
     </nav>
   );
 }

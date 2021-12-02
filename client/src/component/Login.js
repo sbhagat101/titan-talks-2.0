@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import Footer from './Footer';
-import { Link } from 'react-router-dom';
+import Nav from './Nav';
+import { Link, useHistory } from 'react-router-dom';
 import './logo.svg';
 
 import Axios from 'axios'
@@ -10,6 +11,7 @@ function Register() {
     const [password, setPassword] = useState("")
     const [loginStatus, setloginStatus] =  useState("")
 
+    let history = useHistory();
 
     const login = () => {
         Axios.post('http://localhost:3001/login', {
@@ -19,14 +21,16 @@ function Register() {
             if(response.data.message){
                 setloginStatus(response.data.message)
             } else {
-                setloginStatus(response.data[0].userName)
+                history.push("/Explore");
             }
             
         })
     };
 
+
   return (
     <section className= "Main">
+    <Nav />
       <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
       <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
       </div>
