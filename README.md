@@ -57,7 +57,7 @@ Features: This app you can log-in into your titan talks account or register for 
 ### Built With
 
 * react and mySql
-* 
+
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
