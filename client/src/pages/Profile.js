@@ -1,7 +1,9 @@
 import '../style/Profile.css';
 import Nav2  from '../component/Nav2';
+import { useHistory } from 'react-router';
 
 export default function Profile() {
+	let history = useHistory();
 	return (
 		<div >
         <Nav2 />
@@ -36,6 +38,8 @@ export default function Profile() {
 							<a href="mailto:name@email.com"><i class="fa fa-fw fa-envelope"></i></a>
 						</li>
 					</ul>
+					<button className="button" onClick= { () => {
+						history.push("/login"); }}>log out</button>
 				</div>
 			</div>
 
