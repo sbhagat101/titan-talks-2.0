@@ -1,7 +1,7 @@
 # Titan-Talks
 CPSC 362-09 13771
 
-Algorithm Engineering - Larks and Turk & Propps Ant
+
 Team: The big ballers
 Members:
 Nguyen Nguyen || nltn@msn.com
