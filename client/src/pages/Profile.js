@@ -39,7 +39,7 @@ export default function Profile() {
 						</li>
 					</ul>
 					<button className="button" onClick= { () => {
-						history.push("/login"); }}>log out</button>
+						history.push("/login"); alert('sucessfully Loged out') }}>log out</button>
 				</div>
 			</div>
 
