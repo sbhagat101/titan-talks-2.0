@@ -13,7 +13,7 @@ Kevin || k.espinoza1012@gmail.com
 Zhaolin || lifezxm@gmail.com
 
 <br />
-<h3 align="center">Larks and Turk & Propp Ant</h3>
+<h3 align="center">Titan Talks</h3>
 
 </div>
 
